@@ -1,3 +1,11 @@
+
+# Push Change报错 #
+参考[issuse](https://github.com/wangziyingwen/AutoApiSecret/issues/51)大佬提供的方案
+
+
+
+
+
 # 永久停更 #
 
 1，如没有出现重大bug将不会再进行任何更新完善。
