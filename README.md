@@ -7,7 +7,7 @@
 2，参考[issuse](https://github.com/wangziyingwen/AutoApiSecret/issues/51)提供的方案:
    在yml文件最后加一句branch:master
    
-（做完以上更改后，请按两次右上角的星星以启动action查看情况，而**不是**点ation里的re-run按钮!）
+（做完以上更改后，请按两次右上角的星星以启动action查看情况，而**不是**点action里的re-run按钮!）
 
 （此问题于2021-1-2出现，此时间点后新弄的应该是不存在此问题的）
 
