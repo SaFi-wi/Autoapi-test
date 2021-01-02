@@ -4,7 +4,7 @@
 1，Settings -> Branches里，把默认分支改成main。
 
 2，参考[issuse](https://github.com/wangziyingwen/AutoApiSecret/issues/51)提供的方案:
-   yml文件最后加一句branch:master
+   在yml文件最后加一句branch:master
    
 （此问题于2021-1-2出现，此时间点后新弄的应该是不存在此问题的）
 
