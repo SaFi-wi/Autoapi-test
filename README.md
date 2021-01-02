@@ -1,6 +1,10 @@
 
 # Push Change报错 #
-参考[issuse](https://github.com/wangziyingwen/AutoApiSecret/issues/51)大佬提供的方案
+1，参考[issuse](https://github.com/wangziyingwen/AutoApiSecret/issues/51)大佬提供的方案
+
+2，或者在分支页面，把master分支激活再删掉。
+
+
 
 
 
