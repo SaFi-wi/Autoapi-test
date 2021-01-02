@@ -1,15 +1,13 @@
 
 # Push Change报错（2021-1-2） #
 
-1，在分支页面，把主分支改成main，再删掉master。(点master的change按钮，改成main，再回到分支页面删掉master)
+1，Settings -> Branches里，把默认分支改成main。
 
-2，参考[issuse](https://github.com/wangziyingwen/AutoApiSecret/issues/51)大佬提供的方案
-
+2，参考[issuse](https://github.com/wangziyingwen/AutoApiSecret/issues/51)提供的方案:
+   yml文件最后加一句branch:master
+   
 （此问题于2021-1-2出现，此时间点后新弄的应该是不存在此问题的）
 
-分支页面在哪？
-
-   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支.png)
 
 
 
