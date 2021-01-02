@@ -1,8 +1,9 @@
 
 # Push Change报错（2021-1-2） #
-1，参考[issuse](https://github.com/wangziyingwen/AutoApiSecret/issues/51)大佬提供的方案
 
-2，或者在分支页面，把master分支激活再删掉。
+1，在分支页面，把主分支改成main，再删掉master。(点master的change按钮，改成main，再回到分支页面删掉master)
+
+2，参考[issuse](https://github.com/wangziyingwen/AutoApiSecret/issues/51)大佬提供的方案
 
 （此问题于2021-1-2出现，此时间点后新弄的应该是不存在此问题的）
 
