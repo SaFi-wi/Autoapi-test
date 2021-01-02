@@ -1,6 +1,7 @@
 
 # Push Change报错（2021-1-2） #
 两种办法（只能选一种，建议第一种）：
+
 1，Settings -> Branches里，把默认分支改成main。
 
 2，参考[issuse](https://github.com/wangziyingwen/AutoApiSecret/issues/51)提供的方案:
