@@ -1,11 +1,14 @@
 
-# Push Change报错 #
+# Push Change报错（2021-1-2） #
 1，参考[issuse](https://github.com/wangziyingwen/AutoApiSecret/issues/51)大佬提供的方案
 
 2，或者在分支页面，把master分支激活再删掉。
 
+（2021-1-2出现，此时间点后新弄的应该是不存在此问题的）
+
 分支页面在哪？
- ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支.png)
+
+   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支.png)
 
 
 
