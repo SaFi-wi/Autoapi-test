@@ -30,13 +30,21 @@
 一，**部署过程中**出错：
 
 1，提示 refresh_token 错误
+
+类似下图
+
+   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/keyerror.png)
        
        原因：refresh_token格式错误、设置里的id/机密位置混乱了
 
        解决办法：首先确认设置secret里的id、机密是否填对位置。然后清除浏览器缓存，再用rclone重新获取refresh_token替换1.txt的内容，注意格式，末尾不要有空格/空行。（强烈建议按视频一步步操作）
 
 2，提示 *** 错误
-       
+
+   类似下图 
+   
+   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/iderror.png)
+   
        原因：设置secret里，config_id/config_key格式错误
 
        解决办法：详细看readme，注意格式，删除并新建config_id跟config_key。
