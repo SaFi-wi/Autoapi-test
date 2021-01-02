@@ -4,8 +4,8 @@
 
 2，或者在分支页面，把master分支激活再删掉。
 
-
-
+分支页面在哪？
+ ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支.png)
 
 
 
