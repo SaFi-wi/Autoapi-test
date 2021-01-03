@@ -7,7 +7,7 @@
 2，参考[issues](https://github.com/wangziyingwen/AutoApiSecret/issues/51)提供的方案:
    在yml文件最后加一句branch:master
    
-（做完以上更改后，请按两次右上角的星星以启动action查看情况，而**不是**点action里的re-run按钮!）
+（做完以上更改后，请按两次右上角的星星以启动action查看情况，而**不是**点action里的re-run按钮! 还有，同时启动多个action也会触发此错误（例如点星星点多了，一起启动了几个），所以只要有**一个**显示成功的就可以了！）
 
 （此问题于2021-1-2出现，此时间点后新弄的应该是不存在此问题的）
 
