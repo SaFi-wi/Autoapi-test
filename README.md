@@ -10,30 +10,17 @@
    ~~在yml文件最后加一句branch:master~~
 
 --------------
-两种办法（二选一）：
 
-1，看下自己默认分支是啥（你项目的左上角会有写），
+Settings -> Branches里，把默认分支改成main，
 
-   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支2.png)
-
-   1）如果是main的话，在.github/workflow/....yml文件最后回车加一句
+然后在.github/workflow/....yml文件最后回车加一句（注意跟上一行对齐，branch:空格main，格式错误会有下划线提醒）
                          
         branch: main
-
-   2）如果是master的话，在.github/workflow/....yml文件最后回车加一句
-   
-        branch: master
-   
+  
    最终类似下图：
    
    ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支3.png) 
-   
-2，手动指定版本（此方法需要默认分支为master），
- .github/workflow/....yml文件倒数第三行  
-       
-       uses: ad-m/github-push-action@master 改成  uses: ad-m/github-push-action@v0.6.0
 
--------------
        
 （做完以上更改后，请按两次右上角的星星以启动action查看情况，而**不是**点action里的re-run按钮! 还有，同时启动多个action也会触发此错误（例如点星星点多了，一起启动了几个），所以只要有**一个**显示成功的就可以了！）
 
