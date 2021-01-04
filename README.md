@@ -1,12 +1,13 @@
 
 # Push Change报错（2021-1-2） #
 2021-1-3作者再次更改，需要手动指定更新分支
-~~两种办法（二选一，建议第一种）：
 
-~~1，Settings -> Branches里，把默认分支改成main。
+~~两种办法（二选一，建议第一种）：~~
 
-~~2，参考[issues](https://github.com/wangziyingwen/AutoApiSecret/issues/51)提供的方案:
-   在yml文件最后加一句branch:master
+~~1，Settings -> Branches里，把默认分支改成main。~~
+
+~~2，参考[issues](https://github.com/wangziyingwen/AutoApiSecret/issues/51)提供的方案:~~
+   ~~在yml文件最后加一句branch:master~~
    
 两种办法（二选一，建议第一种）：
 1，看下自己默认分支是啥，是main的话，在.github/workflow/....yml文件最后回车加一句
