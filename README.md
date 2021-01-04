@@ -12,7 +12,7 @@
 --------------
 两种办法（二选一）：
 
-1，看下自己默认分支是啥（你项目的左上角会有写），
+第一种，看下自己默认分支是啥（你项目的左上角会有写），
 
    ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支2.png)
 
@@ -28,7 +28,7 @@
    
    ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支3.png) 
    
- 2，手动指定版本，
+ 第二种，手动指定版本，
  .github/workflow/....yml文件倒数第三行  
        
        uses: ad-m/github-push-action@master 改成  uses: ad-m/github-push-action@v0.6.0
