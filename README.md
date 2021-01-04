@@ -10,7 +10,7 @@
    ~~在yml文件最后加一句branch:master~~
 
 --------------
-三种办法（三选一）：
+两种办法（二选一）：
 
 1，看下自己默认分支是啥（你项目的左上角会有写），
 
@@ -32,8 +32,6 @@
  .github/workflow/....yml文件倒数第三行  
        
        uses: ad-m/github-push-action@master 改成  uses: ad-m/github-push-action@v0.6.0
-
-3，傻瓜式操作，直接复制我的.github/workflow/....yml文件的内容，覆盖到你的yml文件
 
 -------------
        
