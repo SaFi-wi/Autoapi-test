@@ -16,11 +16,11 @@
 
    ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支2.png)
 
-     1）如果是main的话，在.github/workflow/....yml文件最后回车加一句
+   1）如果是main的话，在.github/workflow/....yml文件最后回车加一句
                          
         branch: main
 
-     2）如果是master的话，在.github/workflow/....yml文件最后回车加一句
+   2）如果是master的话，在.github/workflow/....yml文件最后回车加一句
    
         branch: master
    
