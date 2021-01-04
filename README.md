@@ -17,7 +17,7 @@
 
    是master的话，在.github/workflow/....yml文件最后回车加一句
    
-        branch: main
+        branch: master
  
  2，手动指定版本
  .github/workflow/....yml文件倒数第三行  
