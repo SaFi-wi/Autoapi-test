@@ -8,22 +8,23 @@
 
 ~~2，参考[issues](https://github.com/wangziyingwen/AutoApiSecret/issues/51)提供的方案:~~
    ~~在yml文件最后加一句branch:master~~
-   
+
+--------------
 三种办法（三选一）：
 
-1，看下自己默认分支是啥（你项目的左上角会有写）
+1，看下自己默认分支是啥（你项目的左上角会有写），
 
    ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支2.png)
 
-   是main的话，在.github/workflow/....yml文件最后回车加一句
+   1）如果是main的话，在.github/workflow/....yml文件最后回车加一句
                          
         branch: main
 
-   是master的话，在.github/workflow/....yml文件最后回车加一句
+   2）如果是master的话，在.github/workflow/....yml文件最后回车加一句
    
         branch: master
    
-   类似下图
+   最终类似下图：
    
    ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支3.png) 
    
@@ -33,6 +34,8 @@
        uses: ad-m/github-push-action@master 改成  uses: ad-m/github-push-action@v0.6.0
 
 3，傻瓜式操作，直接复制我的.github/workflow/....yml文件的内容，覆盖到你的yml文件
+
+-------------
        
 （做完以上更改后，请按两次右上角的星星以启动action查看情况，而**不是**点action里的re-run按钮! 还有，同时启动多个action也会触发此错误（例如点星星点多了，一起启动了几个），所以只要有**一个**显示成功的就可以了！）
 
