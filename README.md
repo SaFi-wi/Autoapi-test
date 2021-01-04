@@ -10,6 +10,7 @@
    ~~在yml文件最后加一句branch:master~~
 
 --------------
+解决办法（之一）：
 
 Settings -> 左栏Branches，把默认分支改成main（记得点update），
 
