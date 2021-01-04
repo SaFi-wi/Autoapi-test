@@ -1,12 +1,27 @@
 
 # Push Change报错（2021-1-2） #
-两种办法（二选一，建议第一种）：
+2021-1-3作者再次更改，需要手动指定更新分支
+~~两种办法（二选一，建议第一种）：
 
-1，Settings -> Branches里，把默认分支改成main。
+~~1，Settings -> Branches里，把默认分支改成main。
 
-2，参考[issues](https://github.com/wangziyingwen/AutoApiSecret/issues/51)提供的方案:
+~~2，参考[issues](https://github.com/wangziyingwen/AutoApiSecret/issues/51)提供的方案:
    在yml文件最后加一句branch:master
    
+两种办法（二选一，建议第一种）：
+1，看下自己默认分支是啥，是main的话，在.github/workflow/....yml文件最后回车加一句
+                         
+        branch: main
+
+   是master的话，在.github/workflow/....yml文件最后回车加一句
+   
+        branch: main
+ 
+ 2，手动指定版本
+ .github/workflow/....yml文件倒数第三行  
+       
+       uses: ad-m/github-push-action@master 改成  uses: ad-m/github-push-action@v0.6.0
+       
 （做完以上更改后，请按两次右上角的星星以启动action查看情况，而**不是**点action里的re-run按钮! 还有，同时启动多个action也会触发此错误（例如点星星点多了，一起启动了几个），所以只要有**一个**显示成功的就可以了！）
 
 （此问题于2021-1-2出现，此时间点后新弄的应该是不存在此问题的）
