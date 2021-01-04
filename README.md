@@ -11,7 +11,7 @@
 
 --------------
 
-Settings -> Branches里，把默认分支改成main，
+Settings -> 左栏Branches，把默认分支改成main（记得点update），
 
 然后在.github/workflow/....yml文件最后回车加一句（注意跟上一行对齐，branch:空格main，格式错误会有下划线提醒）
                          
