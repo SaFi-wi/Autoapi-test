@@ -11,14 +11,22 @@
    
 三种办法（三选一）：
 
-1，看下自己默认分支是啥，是main的话，在.github/workflow/....yml文件最后回车加一句
+1，看下自己默认分支是啥（你项目的左上角会有写）
+
+   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支2.png)
+
+   是main的话，在.github/workflow/....yml文件最后回车加一句
                          
         branch: main
 
    是master的话，在.github/workflow/....yml文件最后回车加一句
    
         branch: master
- 
+   
+   类似下图
+   
+   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/分支3.png) 
+   
  2，手动指定版本
  .github/workflow/....yml文件倒数第三行  
        
